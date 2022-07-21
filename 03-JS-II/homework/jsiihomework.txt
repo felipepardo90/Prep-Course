@@ -1,4 +1,0 @@
-for : el ciclo for te va a servir para iterar sobre cada elemento en un arreglo. Es decir, vamos a poder controlar uno por uno el contenido de un array, según especificaciones
-&&: el operador && significa and y puede utilizarse en condiciones en donde al comparar dos elementos, ambos deban tener true como valor. También puede ser utilizado como una condición if ternaria, en donde evaluará el primer valor y si la condición es true, se ejecutará la función
-||: el operador || significa or y puede utilizarse en condiciones en donde al comparar dos elementos, al menos uno debe tener true como valor. También puede ser utilizado como una condición if ternaria, en donde evaluará el primer valor y si la condición es false, se ejecutará la función
-!: el operador ! significa not y puede transformar cualquier condición en el valor booleano false, si para eso lo requiere la condición

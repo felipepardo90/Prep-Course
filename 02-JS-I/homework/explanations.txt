@@ -1,5 +1,0 @@
-Variables = son declaraciones aleatorias a las que se les puede asignar un valor. Pueden ser locales o de bloque. Hay tres tipos= var(deprecada), let y const(no pueden renombrarse)
-Strings= Se les conoce como cadena de texto. Es un valor conformado por palabras u oraciones que van encerradas entre comillas (" ")
-Funciones = ejecutan acciones. pueden ser almacenadas en una variable. Si está dentro de una clase, se le conoce como método. Existen las funciones que se declaran con la palabra reservada function(), las funciones anónimas, y las funciones de flecha(las más usadas). Pueden recibir argumentos para trabajar en la ejecución, y pueden devolver un valor.
-Declaraciones "if"= Es un condicional que se ejecutará en caso de que se cumpla una condición => if (1+1=2){true} // Se ejecuta si la condición es correcta /// puede retornar un segundo valor que será declarado con else, o puede volverse anidado con declaraciones else if, lo que contempla poner otras condiciones.
-Valores booleanos= Solo existen dos tipos de valores booleanos, true o false. En español: cierto y falso.
