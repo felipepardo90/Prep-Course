@@ -1,6 +1,7 @@
 node_modules
 package-lock.json
 .temp
+pruebas.js
 
 # Eleventy
 _dist
