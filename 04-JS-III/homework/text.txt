@@ -1,0 +1,1 @@
+Array: Un array o arreglo es una colección de datos que puede almacenar en una variable múltiple información, incluso también otros arreglos. Siempre va a estar definida entre corchetes []

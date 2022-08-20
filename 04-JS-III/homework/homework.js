@@ -36,8 +36,13 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+<<<<<<< HEAD
   array.push(elemento)
   return array;
+=======
+  array.push(elemento);
+  return array
+>>>>>>> fd1032920dfe4814ce7e3a856ca34e6bcf0fc033
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -209,7 +214,7 @@ function breakStatement(numero) {
   } while (counter < 10);
 
   if (counter < 10) {
-    return "Se interrumpió la conexión";
+    return "Se interrumpió la ejecución";
   } else {
     return newArray;
   }
@@ -224,6 +229,7 @@ function continueStatement(numero) {
   // Tu código:
   let newArray = [];
   let counter = 0;
+<<<<<<< HEAD
   do {
     numero += 2;
     if (counter == 5) {
@@ -239,6 +245,16 @@ function continueStatement(numero) {
   } else {
     return newArray;
   }
+=======
+
+  while (counter < 10) {
+    counter++;
+    if (counter == 5) continue;
+    numero += 2;
+    newArray.push(numero);
+  }
+  return newArray;
+>>>>>>> fd1032920dfe4814ce7e3a856ca34e6bcf0fc033
 }
 
 // No modificar nada debajo de esta línea
