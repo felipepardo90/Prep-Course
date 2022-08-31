@@ -76,7 +76,7 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  return objeto.key === propiedad ? true : false;
+  return objeto[propiedad]? true : false;
 }
 
 function verificarPassword(usuario, password) {
@@ -84,8 +84,7 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-
-  return usuario['password'] === password;
+  return usuario["password"] === password;
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
@@ -138,10 +137,9 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-  producto.calcularPrecioDescuento = () => {
-    return this.precio - ( this.precio * this.porcentajeDeDescuento);
+  producto.calcularPrecioDescuento = function () {
+    return this.precio - this.precio * this.porcentajeDeDescuento;
   };
-
   return producto;
 }
 
