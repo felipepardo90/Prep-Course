@@ -1,0 +1,11 @@
+Objeto: Un objeto es en javascript lo mismo que un objeto en la vida real. Tiene sus propiedades. Se reconoce en el código porque está escrito entre llaves {} y sus atributos tienen una propiedad y un valor (key) para cada propiedad.
+
+Propiedades: Son los atributos de los objetos. un objeto es descripto e identificado por su/s propiedad/es
+
+Métodos: Son las funciones o acciones que se guardan como propiedad en un objeto. A diferencia de las funciones normales, en su sintaxis en los objetos no pueden estar guardadas dentro de una variable ni tampoco iniciar con la palabra reservada "function".
+
+Bucle for_in: recorre las propiedades de un objeto que se puede enumerar, incluídas las propiedades heredadas... Devuelve el índice de cada propiedad al momento de la iteración.
+
+la notación de puntos puede servir para asignar una nueva propiedad a un objeto o para modificarla. Solo se puede usar con el valor real que se va a asignar. La notación de corchetes sirve para cuando este valor lo desconocemos, por ejemplo, si está asignado a una variable, se va a utilizar la notación de corchetes
+
+objeto.nombre = Felipe --- > objeto["titular"] =  Felipe
