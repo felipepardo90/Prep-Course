@@ -1,0 +1,4 @@
+Prototype: el prototype representa para cada objeto en javascript una propiedad, que contiene a su vez la propiedad Constructor, cuyo valor será la clase a la cuál hayamos accedido.
+Esta propiedad permite crear objetos con propiedades heredadas del constructor.
+
+Constructor: Es un método, una función propia de las clases que sirve para "construir" objetos mediante propiedades asignadas a este. Solo puede haber un método constructor por clase. Si no se especifica el método constructor, se crea un constructor predeterminado.
