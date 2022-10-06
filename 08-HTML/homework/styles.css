@@ -1,0 +1,31 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/058/254/non_2x/abstract-white-background-free-vector.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div{
+    margin: auto;
+}
+
+.divClass h1 {
+  color: blue;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background-color: yellow;
+  border: 1px solid red;
+  padding: 50px;
+}
+#thirdDiv img {
+  width: 400px;
+}
