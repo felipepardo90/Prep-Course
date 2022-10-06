@@ -1,0 +1,1 @@
+Funciones callback: Las funciones callback son funciones que son llamadas por otras funciones, es decir, se ejecutan dentro del proceso de otra función. Las funciones callback pueden recibir otras funciones callback, en un proceso que puede llegar a ser extenso o infinito, lo que se conoce como callback hell ("infierno de callbackS")
